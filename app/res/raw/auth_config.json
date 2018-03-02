@@ -1,11 +1,11 @@
 {
-  "client_id": "",
-  "redirect_uri": "net.openid.appauthdemo:/oauth2redirect",
+  "client_id": "vanilla",
+  "redirect_uri": "http://10.0.2.2:8088/LibraryCrawlRedirect.html",
   "authorization_scope": "openid email profile",
   "discovery_uri": "",
-  "authorization_endpoint_uri": "",
-  "token_endpoint_uri": "",
+  "authorization_endpoint_uri": "http://10.0.2.2:8080/auth/realms/libraryhunt/protocol/openid-connect/auth",
+  "token_endpoint_uri": "http://10.0.2.2:8080/auth/realms/libraryhunt/protocol/openid-connect/token",
   "registration_endpoint_uri": "",
-  "user_info_endpoint_uri": "",
-  "https_required": true
+  "user_info_endpoint_uri": "http://10.0.2.2:8080/auth/realms/libraryhunt/protocol/openid-connect/userinfo",
+  "https_required": false
 }
